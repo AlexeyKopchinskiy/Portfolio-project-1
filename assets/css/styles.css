@@ -1,15 +1,17 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Global Variables */
 :root {
-    --primary-font: "Inter", sans-serif;
-    --secondary-font: "Macondo", cursive;
+    --primary-font: "Merriweather Sans", sans-serif;
+    --secondary-font: "Lato", cursive;
     --primary-color: #420c14; /* chocolate-cosmos */
     --secondary-color: #aba361; /* ecru*/
     --highlight-color: #732c2c; /* garnet */
     --highlight-color-2: #eff7cf; /* cream */
     --highlight-color-light: #bad9b5; /* celadon */
+    --link-color:#336699;
 }
 
 /* Global styles */
@@ -30,11 +32,27 @@ h1,
 h2 {
     text-transform: uppercase;
 }
-
+h1{
+    /* font-size: 4vw; */
+}
 h2 {
     margin-bottom: 2rem;
+    /* font-size: 2.5vw; */
+}
+h6{
+    font-size: smaller;
+}
+A{
+    text-decoration: none;
+    color: var(--link-color);
+}
+A:hover{
+    color: var(--highlight-color);
 }
 
+/* .row{
+    border: 1px red solid;
+} */
 .sub-heading-color {
     color: var(--highlight-color);
 }
@@ -80,6 +98,20 @@ h2 {
 
 /* Header */
 
+#hero{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#hero img {
+    align-self: center;
+    display: inline-block;
+    position: relative;
+    margin: 10px auto;
+  }
 #header .lead {
     font-family: var(--secondary-font);
 }
@@ -96,13 +128,28 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Main area */
+/* .caption A{
+    text-decoration: none;
+} */
+.gallery img{
+    width: 100%;
+}
+
+/* About us styles */
+#aboutUs{
+    background-color: var(--secondary-color);
+    border: 1px red solid;
+}
+
+/* End of Main area */
+
 /* Footer with contact info */
 
 #contact {
     background-color: var(--primary-color) !important; 
     color: white;
     padding-bottom: 3rem;
-    border-bottom: 5px red solid;
 }
 
 #contact h2 {
@@ -131,4 +178,31 @@ h2 {
 
 #contact .table-dark * {
     background-color: transparent;
+}
+
+/* Media queries */
+
+/* Small screens and up */
+@media screen and (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+}
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+}
+
+/* xxl devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+
 }
