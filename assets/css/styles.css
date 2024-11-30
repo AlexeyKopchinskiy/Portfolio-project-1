@@ -8,6 +8,8 @@
     --secondary-font: "Lato", cursive;
     --primary-color: #420c14; /* chocolate-cosmos */
     --secondary-color: #aba361; /* ecru*/
+    --tertiary-color: #96c29f;
+    --shade-color: #e4f9e8;
     --highlight-color: #732c2c; /* garnet */
     --highlight-color-2: #eff7cf; /* cream */
     --highlight-color-light: #bad9b5; /* celadon */
@@ -19,6 +21,7 @@
 body {
     font-family: var(--primary-font);
     padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
+    color: #4d4d4d;
 }
 
 h1,
@@ -44,10 +47,10 @@ h6{
 }
 A{
     text-decoration: none;
-    color: var(--link-color);
+    color: var(--primary-color);
 }
 A:hover{
-    color: var(--highlight-color);
+    color: var(--link-color);
 }
 
 /* .row{
@@ -61,8 +64,8 @@ A:hover{
     padding-top: 4rem; /* prevent navbar overlap */
 }
 
-/* Buttons */
 
+/* Buttons */
 .custom-button-filled {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
@@ -87,7 +90,6 @@ A:hover{
 }
 
 /* Navbar */
-
 #navbar{
     background-color: var(--primary-color);
 }
@@ -97,7 +99,6 @@ A:hover{
 }
 
 /* Header */
-
 #hero{
     display: flex;
     flex-wrap: wrap;
@@ -115,6 +116,10 @@ A:hover{
 #header .lead {
     font-family: var(--secondary-font);
 }
+/* .moto{
+    background-image:url(assets\images\Carriage_transparent.png);
+    border-right: 5px red solid;
+} */
 
 /* Services */
 
@@ -129,17 +134,28 @@ A:hover{
 }
 
 /* Main area */
+#main{
+    /* background-color: var(--shade-color); */
+}
 /* .caption A{
     text-decoration: none;
 } */
+.gallery{
+    /* background-color: var(--shade-color); */
+}
 .gallery img{
     width: 100%;
 }
 
 /* About us styles */
 #aboutUs{
-    background-color: var(--secondary-color);
-    border: 1px red solid;
+    border-top-width: 5px;
+    margin: 15px 0 0 0;
+}
+#aboutUs p{
+    font-size: larger;
+    line-height:2cqi;
+    text-align: justify;
 }
 
 /* End of Main area */
@@ -150,6 +166,8 @@ A:hover{
     background-color: var(--primary-color) !important; 
     color: white;
     padding-bottom: 3rem;
+    margin: 0px !important;
+    border-top: #336699;
 }
 
 #contact h2 {
