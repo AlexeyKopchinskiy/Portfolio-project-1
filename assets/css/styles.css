@@ -23,12 +23,12 @@ body {
     padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
     color: #4d4d4d;
 }
-
 h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 h1,
@@ -61,7 +61,7 @@ A:hover{
 }
 
 .section {
-    padding-top: 4rem; /* prevent navbar overlap */
+    padding-top: 1.5rem; /* prevent navbar overlap */
 }
 
 
@@ -107,31 +107,31 @@ A:hover{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+#hero .section{
+    padding-top: 0;
+}
 #hero img {
     align-self: center;
     display: inline-block;
     position: relative;
     margin: 10px auto;
+    border-top-left-radius: 50px;
   }
 #header .lead {
     font-family: var(--secondary-font);
 }
-/* .moto{
+.explore{
     background-image:url(assets\images\Carriage_transparent.png);
-    border-right: 5px red solid;
-} */
+    /* border-right: 5px red solid; */
+    background-position: right;
+}
 
 /* Services */
 
-#services .card-footer {
-    font-weight: bold;
-    color: var(--highlight-color);
+/* #services {
     background-color: transparent;
-}
+} */
 
-#services .card {
-    margin-bottom: 1.5rem;
-}
 
 /* Main area */
 #main{
@@ -145,16 +145,36 @@ A:hover{
 }
 .gallery img{
     width: 100%;
+    border-top-left-radius: 10px;
 }
+.gallery h6{
+    padding: 0 15px 0 0;
+    margin-bottom: -10px;
+    color:#969696;
+}
+.thumbnail{
+    margin: 15px;
+}
+.thumbnail p{
+    padding-top: 10px;
+}
+/* Booking srction */
+#booking{
+    background-color: var(--secondary-color);
+    padding: 30px 0;
+}
+#booking form{
+    margin: 10px 20px 0 20px;
+}
+/* End of Booking srction */
 
 /* About us styles */
 #aboutUs{
-    border-top-width: 5px;
-    margin: 15px 0 0 0;
+    margin: 55px 0 60px 0;
 }
 #aboutUs p{
     font-size: larger;
-    line-height:2cqi;
+    line-height:27px;
     text-align: justify;
 }
 
