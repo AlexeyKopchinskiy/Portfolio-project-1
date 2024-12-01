@@ -160,6 +160,9 @@ A:hover{
     color: var(--primary-color);
     background-color: var(--secondary-color);
 }
+.services p{
+    text-align: justify;
+}
 
 /* Booking srction */
 #booking{
@@ -196,7 +199,9 @@ A:hover{
     margin: 0px !important;
     border-top: #336699;
 }
-
+#contact a{
+    color: #336699;
+}
 #contact h2 {
     color: white;
 }
