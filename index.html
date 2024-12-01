@@ -28,6 +28,16 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
 
+    <script>
+        function validateForm() {
+          let x = document.forms["myForm"]["fname"].value;
+          if (x == "") {
+            alert("Name must be filled out");
+            return false;
+          }
+        }
+    </script>
+
 </head>
 <body class="d-flex flex-column min-vh-100">
 
@@ -59,7 +69,7 @@
                         <a href="#gallery" class="nav-link">Destinations</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#booking" class="nav-link btn custom-button-filled ms-lg-3">Book now</a>
+                        <a href="#booking" class="nav-link btn custom-button-filled ms-lg-3">Sign up</a>
                     </li>
                 </ul>
             </div>
@@ -79,7 +89,7 @@
                 <!-- mb-5 gives extra margin spacing under subheading -->
                 <p  class="align-middle">
                     In the footsteps of the kings of old:<br>
-                    Ten beautiful locations filled with exciting artefacts
+                    Six beautiful locations filled with exciting artefacts
                 <!-- mb-5 gives extra margin spacing under lead text -->
                 <p class="lead mb-5"><a href="#booking" class="btn custom-button-filled ms-lg-3">Book the guided tour now!</a></p>
             </div>
@@ -161,8 +171,7 @@
         </div>
         
         <!-- Services section -->
-        <div class="services" id="services">
-            
+        <div class="services" id="services">       
             <section class="container section"> 
                 <h2 class="mt-4">Our Services</h2>               
                 <div class="accordion" id="accordionExample">
@@ -275,7 +284,7 @@
         </div>
         <!-- About Us section -->
         <section id="aboutUs" class="section">
-            <div class="container">
+            <div class="container section">
                 <h2 class="text-">About us</h2>                
                 <p class="mx-4">Welcome to Vienna Imperial Tours, where history comes alive within the majestic Schönbrunn Palace and its enchanting gardens. Our expert guides, equipped with profound knowledge and a passion for storytelling, offer an immersive exploration of this UNESCO World Heritage Site. At Vienna Imperial Tours, we believe that every corner of Schönbrunn holds a story waiting to be unveiled—from the grandeur of its architecture to the serene beauty of its expansive park.</p>
                 <p class="mx-4">Join us for an unforgettable journey through the heart of imperial Austria, where you will gain exclusive insights into the lives of Habsburg royalty. We invite you to experience the elegance and charm of Schönbrunn with us, ensuring a memorable adventure for history enthusiasts and curious travelers alike. Discover the regal past—because a great story deserves to be told.</p>
@@ -284,49 +293,29 @@
         
         <!-- Book form section -->
          <section id="booking" class="section">
-            <h2 class="mt-2">Book the Tour:</h2>
-            <form class="row g-3">
+            <h2 class="mt-2">Sign up for our newsletter:</h2>
+            <form class="row g-3" action="signup-confirmation.html" onsubmit="return validateForm()" method="get">
                 <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="inputPassword4">
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress" class="form-label">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress2" class="form-label">Address 2</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                  <label for="inputName" class="form-label">Name</label>
+                  <input type="name" class="form-control" id="inputName" required>
                 </div>
                 <div class="col-md-6">
-                  <label for="inputCity" class="form-label">City</label>
-                  <input type="text" class="form-control" id="inputCity">
+                  <label for="inputEmail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" required>
                 </div>
                 <div class="col-md-4">
-                  <label for="inputState" class="form-label">State</label>
-                  <select id="inputState" class="form-select">
-                    <option selected>Choose...</option>
-                    <option>...</option>
+                  <label for="inputState" class="form-label">Preffered activity</label>
+                  <select id="inputState" class="form-select" required>
+                    <option value selected>Choose...</option>
+                    <option>Grand Tours</option>
+                    <option>Imperial Palace</option>
+                    <option>Imperial Park</option>
+                    <option>Carriage Tour</option>
+                    <option>Kids Museum</option>
                   </select>
                 </div>
-                <div class="col-md-2">
-                  <label for="inputZip" class="form-label">Zip</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Check me out
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary">Sign in</button>
+                <div class="col-12 text-center">
+                  <button type="submit" class="btn btn-primary">Sign me up</button>
                 </div>
               </form>
          </section>

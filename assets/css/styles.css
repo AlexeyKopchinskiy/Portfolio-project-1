@@ -61,7 +61,7 @@ A:hover{
 }
 
 .section {
-    padding-top: 1.5rem; /* prevent navbar overlap */
+    padding-top: 2.5rem; /* prevent navbar overlap */
 }
 
 
@@ -105,7 +105,7 @@ A:hover{
     align-items: center;
     justify-content: space-around;
     margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 #hero .section{
     padding-top: 0;
@@ -125,13 +125,6 @@ A:hover{
     /* border-right: 5px red solid; */
     background-position: right;
 }
-
-/* Services */
-
-/* #services {
-    background-color: transparent;
-} */
-
 
 /* Main area */
 #main{
@@ -158,13 +151,27 @@ A:hover{
 .thumbnail p{
     padding-top: 10px;
 }
+
+/* Services */
+
+.services .accordion-button{
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
 /* Booking srction */
 #booking{
     background-color: var(--secondary-color);
     padding: 30px 0;
 }
 #booking form{
-    margin: 10px 20px 0 20px;
+    margin: 10px 30px;
+    /* border: 1px #969696 solid;
+    border-top-left-radius: 30px; */
+    padding: 10px 15px;
+    /* background-color: #aeadad; */
 }
 /* End of Booking srction */
 
