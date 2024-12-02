@@ -71,6 +71,8 @@ Contact US section has Contact Info with the address of the company headquarters
 
 -	Accessibility with lighthouse: passed
 
+![Lighthouse score](https://alexeykopchinskiy.github.io/Portfolio-project-1/assets/images/readme-images/Lighthouse-score.png)
+
 *Fixed bugs*
 - there was unclosed div tag in the Accordion section - fixed
 - there was big in the form field: the field attribute was wrong - fixed
