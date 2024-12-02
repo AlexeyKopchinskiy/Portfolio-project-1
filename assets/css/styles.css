@@ -53,9 +53,6 @@ A:hover{
     color: var(--link-color);
 }
 
-/* .row{
-    border: 1px red solid;
-} */
 .sub-heading-color {
     color: var(--highlight-color);
 }
@@ -64,6 +61,14 @@ A:hover{
     padding-top: 2.5rem; /* prevent navbar overlap */
 }
 
+/* Navigations styles */
+#navbar .navbar-brand img{
+    margin-right: 10px;
+}
+#navbar .navbar-brand{
+    text-transform: uppercase;
+}
+/* End of Navigations styles */
 
 /* Buttons */
 .custom-button-filled {
