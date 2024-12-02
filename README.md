@@ -52,3 +52,7 @@ Newsletter form has three fields: Name, Email and Proffered activity. The form i
 
 Contact US section has Contact Info with the address of the company headquarters, phone number and email. Next to it there is Opening times section with schedule of the Schönbunn park.
 
+**Testing**
+
+- Website was tested in four magore brawsers: GOogle Chrome, Firefox, OPera and Microsoft Edge. 
+- The responsivnes was tested using Devtools and works well on all standard screen sizes.
