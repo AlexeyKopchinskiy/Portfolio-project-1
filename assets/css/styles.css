@@ -116,8 +116,10 @@ A:hover{
     font-family: var(--secondary-font);
 }
 .explore{
-    background-image:url(assets\images\Carriage_transparent.png);
+    background-image:url(/assets/images/Carriage_transparent.png);
+    background-repeat: no-repeat;
     background-position: right;
+    background-size: contain;
 }
 
 /* Main area */
