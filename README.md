@@ -67,7 +67,7 @@ Contact US section has Contact Info with the address of the company headquarters
 
 -	CSS Jigsaw validator: passed
 
-![W3org HTML validation](https://alexeykopchinskiy.github.io/Portfolio-project-1/assets/images/readme-images/css-velidation-success.jpg)
+![W3org HTML validation](https://alexeykopchinskiy.github.io/Portfolio-project-1/assets/images/readme-images/css-velidation-success.png)
 
 -	Accessibility with lighthouse: passed
 
