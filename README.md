@@ -65,8 +65,12 @@ Contact US section has Contact Info with the address of the company headquarters
 
 ![W3org HTML validation](https://alexeykopchinskiy.github.io/Portfolio-project-1/assets/images/readme-images/html-validation-results.jpg)
 
--	CSS Jigsaw validator:
--	Accessibility with lighthouse:
+-	CSS Jigsaw validator: passed
+
+![W3org HTML validation](https://alexeykopchinskiy.github.io/Portfolio-project-1/assets/images/readme-images/css-velidation-success.jpg)
+
+-	Accessibility with lighthouse: passed
+
 *Fixed bugs*
 - there was unclosed div tag in the Accordion section - fixed
 - there was big in the form field: the field attribute was wrong - fixed
