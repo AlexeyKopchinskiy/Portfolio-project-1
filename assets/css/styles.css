@@ -1,5 +1,4 @@
 /* Google fonts import */
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Global Variables */
@@ -53,9 +52,6 @@ A:hover{
     color: var(--link-color);
 }
 
-/* .row{
-    border: 1px red solid;
-} */
 .sub-heading-color {
     color: var(--highlight-color);
 }
@@ -105,7 +101,6 @@ A:hover{
     align-items: center;
     justify-content: space-around;
     margin-top: 20px;
-    /* margin-bottom: 20px; */
 }
 #hero .section{
     padding-top: 0;
@@ -122,20 +117,10 @@ A:hover{
 }
 .explore{
     background-image:url(assets\images\Carriage_transparent.png);
-    /* border-right: 5px red solid; */
     background-position: right;
 }
 
 /* Main area */
-#main{
-    /* background-color: var(--shade-color); */
-}
-/* .caption A{
-    text-decoration: none;
-} */
-.gallery{
-    /* background-color: var(--shade-color); */
-}
 .gallery img{
     width: 100%;
     border-top-left-radius: 10px;
@@ -171,10 +156,7 @@ A:hover{
 }
 #booking form{
     margin: 10px 30px;
-    /* border: 1px #969696 solid;
-    border-top-left-radius: 30px; */
     padding: 10px 15px;
-    /* background-color: #aeadad; */
 }
 /* End of Booking srction */
 
@@ -228,31 +210,4 @@ A:hover{
 
 #contact .table-dark * {
     background-color: transparent;
-}
-
-/* Media queries */
-
-/* Small screens and up */
-@media screen and (min-width: 576px) {
-
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
-
-}
-
-/* Large devices (small laptops, 992px and up) */
-@media screen and (min-width: 992px) {
-
-}
-
-/* xl devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
-
-}
-
-/* xxl devices (larger desktops, 1400px and up) */
-@media screen and (min-width: 1400px) {
-
 }
