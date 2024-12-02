@@ -54,5 +54,19 @@ Contact US section has Contact Info with the address of the company headquarters
 
 **Testing**
 
-- Website was tested in four magore brawsers: GOogle Chrome, Firefox, OPera and Microsoft Edge. 
+- Website was tested in four magore brawsers: Google Chrome, Firefox, Opera and Microsoft Edge. 
 - The responsivnes was tested using Devtools and works well on all standard screen sizes.
+- Navigation links were tested and wors well including the navigation link on the Sign Up form submission page. 
+- The Sign Up form has working validation and un submission opens signup-confirmation.html page.
+
+**Validation**
+
+-	W3C HTML validator: passed
+
+![W3org HTML validation](https://alexeykopchinskiy.github.io/Portfolio-project-1/assets/images/readme-images/html-validation-results.jpg)
+
+-	CSS Jigsaw validator:
+-	Accessibility with lighthouse:
+*Fixed bugs*
+- there was unclosed div tag in the Accordion section - fixed
+- there was big in the form field: the field attribute was wrong - fixed
