@@ -30,7 +30,7 @@ This responsive section features a small image gallery with six 300x300 px thumb
 
 **Our Services**
 
-![Our Services](https://alexeykopchinskiy.github.io/Portfolio-project-1/assets/images/readme-images/our-servives.jpg)
+![Our Services](https://alexeykopchinskiy.github.io/Portfolio-project-1/assets/images/readme-images/our-services.jpg)
 
 Oue services section features a practical Bootstrap Accordion with four foldable parts each holding text description of one of the offered tours.
 
@@ -42,7 +42,7 @@ This simple section holds two paragraphs of text describing the Vienna Imperial 
 
 **Newsletter**
 
-![Newsletter](https://alexeykopchinskiy.github.io/Portfolio-project-1/assets/images/readme-images/newsletter-sign-up.jpg)
+![Newsletter](https://alexeykopchinskiy.github.io/Portfolio-project-1/assets/images/readme-images/newsletter-sign-up-form.jpg)
 
 Newsletter form has three fields: Name, Email and Proffered activity. The form is fictional and has no real action, however, it has form validation and redirects to the confirmation “signup-confirmation.html”
 
