@@ -63,20 +63,19 @@
     <!-- End of site navigation -->
 
     <!-- Header -->
-    <header id="hero" class="container gx-6 moto">
+    <!-- my-4 gives extra margin spacing above and below hero section -->
+    <header id="hero" class="container gx-6 moto my-4">
         <!-- section with hero image -->
-        <section class="row gx-6 align-items-center section">
-            <div class="col-sm-12 col-md-6 col-lg-8">
+        <section class="row gx-6 mt-4 mx-2 align-items-center section">
+            <div class="col-sm-12 col-md-8 col-lg-8 heroImageContainer">
                 <img src="assets/images/vienna-schoenbrunn-castle-medium.webp" alt="Schoenbrunn palace" class="img-fluid float-start">
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 text-center explore">
-                <h1 class="my-4">Explore Sch&ouml;nbrunn</h1>
-                <!-- mb-5 gives extra margin spacing under subheading -->
-                <p  class="align-middle">
-                    In the footsteps of the kings of old:<br>
-                    Six beautiful locations filled with exciting artefacts
+            <div class="col-sm-12 col-md-4 col-lg-4 explore">
+                <h1 class="px-4 py-4">Explore Sch&ouml;nbrunn</h1>              
+                <p>
+                    In the footsteps of the kings of old
                 <!-- mb-5 gives extra margin spacing under lead text -->
-                <p class="lead mb-5"><a href="#booking" class="btn custom-button-filled ms-lg-3">Book the guided tour now!</a></p>
+                <p class="lead mb-5 mx-3"><a href="#booking" class="btn custom-button-filled ms-lg-3">Book the guided tour now!</a></p>
             </div>
         </section>
     </header>
@@ -86,7 +85,7 @@
     <main id="main">
         <div class="gallery">
             <section id="gallery" class="container section">
-                <h2 class="text-center mt-4">See Our Main Destinations:</h2>
+                <h2 class="text-center mt-4">Re-discover exciting historical artefacts</h2>
                 <h6 class="text-end">Click on the images to enlarge them</h6>
                 <div class="row">
                 <div class="col-md-4">
@@ -277,7 +276,7 @@
         
         <!-- Book form section -->
          <section id="booking" class="section">
-            <h2 class="mt-2">Sign up for our newsletter:</h2>
+            <h2 class="mt-2 mx-2">Sign up for our newsletter:</h2>
             <form class="row g-3" action="signup-confirmation.html" onsubmit="return validateForm()" method="get">
                 <div class="col-md-6">
                   <label for="inputName" class="form-label">Name</label>
