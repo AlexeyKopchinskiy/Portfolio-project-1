@@ -122,10 +122,14 @@ A:hover{
 /* Main area */
 
 /* Services */
-/* #gallery h2{
-    border-bottom: 1px #aba46172 solid;
-    text-shadow: rgb(255, 255, 255) 2px 2px 1px;
-} */
+/* Gallery stales */
+.card{
+    margin: 25px 15px;
+    border-radius: 0;
+}
+.card img{
+    border-radius: 0;
+}
 .services .accordion-button{
     font-size: 20px !important;
     font-weight: bold !important;
