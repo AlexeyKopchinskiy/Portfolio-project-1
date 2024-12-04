@@ -21,7 +21,7 @@ body {
     font-family: var(--primary-font);
     padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
     color: #4d4d4d;
-    background-image:url(../images/Carriage_transparent_infrontofthe_palace.webp);
+    background-image:url(../images/Carriage_transparent_infrontofthe_palace.png);
     background-repeat: no-repeat;
     background-position: top;
     /* background-size:contain; */
@@ -109,7 +109,7 @@ A:hover{
 #hero .heroImageContainer{
     padding: 0;
     margin: 0;
-    
+
 }
 #hero img {
     margin: 0px auto;
