@@ -23,7 +23,7 @@
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="assets/css/styles.css" />
 		<!-- Fonat Awesone -->
-		<script src="https://kit.fontawesome.com/83f5109055.js" crossorigin="anonymous"></script>
+		<script rel="preconnect" src="https://kit.fontawesome.com/83f5109055.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<!-- Site navigation -->
@@ -80,7 +80,7 @@
 			<section class="row align-items-center section m-1">
 				<div class="col-sm-12 col-md-8 col-lg-8 heroImageContainer">
 					<img
-						src="assets/images/vienna-schoenbrunn-castle-main-gate.webp"
+						src="assets/images/vienna-schoenbrunn-castle-main-gate-reduced.webp"
 						alt="Schoenbrunn palace"
 						class="img-fluid float-start "
 					/>
@@ -537,10 +537,6 @@
 			crossorigin="anonymous"
 		></script>
 
-		<!-- Font Awesome kit -->
-		<!-- using free version 6 -->
-		<script src="https://kit.fontawesome.com/83f5109055.js" crossorigin="anonymous"></script>
-
 		<!-- This JavaScript code ensures that the Bootstrap navbar collapses when navigating within the page -->
 		<script>
 			document.querySelectorAll(".navbar-collapse .nav-link").forEach((link) => {
@@ -558,26 +554,5 @@
 				});
 			});
 		</script>
-		<!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-		<!-- <script>
-        document
-            .querySelectorAll(".navbar-collapse .nav-link")
-            .forEach((link) => {
-                link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                        window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                            behavior: "smooth",
-                        });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
-                    }
-                });
-            });
-    </script> -->
 	</body>
 </html>
