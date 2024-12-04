@@ -21,7 +21,7 @@ body {
     font-family: var(--primary-font);
     padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
     color: #4d4d4d;
-    background-image:url(../images/Carriage_transparent_infrontofthe_palace.png);
+    background-image:url(../images/Carriage_transparent_infrontofthe_palace.webp);
     background-repeat: no-repeat;
     background-position: top;
     /* background-size:contain; */
@@ -211,3 +211,24 @@ A:hover{
 #contact .table-dark * {
     background-color: transparent;
 }
+
+/* Media queries */
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+
+}
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Large devices (large screens, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+}
+
