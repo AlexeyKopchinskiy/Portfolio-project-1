@@ -13,6 +13,7 @@
     --highlight-color-2: #eff7cf; /* cream */
     --highlight-color-light: #bad9b5; /* celadon */
     --link-color:#336699;
+    box-sizing: border-box;
 }
 
 /* Global styles */
@@ -25,7 +26,9 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
-    /* background-size:contain; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 h1,
 h2,
@@ -121,6 +124,10 @@ A:hover{
 
 /* Main area */
 
+main{
+    flex: 1 0 auto;
+}
+
 /* Services */
 /* Gallery stales */
 .card{
@@ -202,4 +209,3 @@ A:hover{
 #contact .table-dark * {
     background-color: transparent;
 }
-
