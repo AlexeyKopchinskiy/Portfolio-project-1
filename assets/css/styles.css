@@ -19,16 +19,18 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
+    padding-top: 57.15px; /*pushes the top of the header down under fixed navbar*/
     color: #4d4d4d;
     background-image:url(../images/Carriage_transparent_infrontofthe_palace.png);
     background-repeat: no-repeat;
     background-position: top;
+    background-attachment: fixed;
     /* background-size:contain; */
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     text-align: center;
@@ -38,12 +40,10 @@ h1,
 h2 {
     text-transform: uppercase;
 }
-h1{
-    /* font-size: 4vw; */
-}
 h2 {
     margin-bottom: 2rem;
-    /* font-size: 2.5vw; */
+    border-bottom: 1px #aba46172 solid;
+    text-shadow: rgb(255, 255, 255) 2px 2px 1px;
 }
 h6{
     font-size: smaller;
@@ -120,24 +120,12 @@ A:hover{
 }
 
 /* Main area */
-.gallery img{
-    width:100%;
-    /* border-top-left-radius: 10px; */
-}
-.gallery h6{
-    padding: 0 15px 0 0;
-    margin-bottom: -10px;
-    color:#969696;
-}
-.thumbnail{
-    margin: 15px;
-}
-.thumbnail p{
-    padding-top: 10px;
-}
 
 /* Services */
-
+/* #gallery h2{
+    border-bottom: 1px #aba46172 solid;
+    text-shadow: rgb(255, 255, 255) 2px 2px 1px;
+} */
 .services .accordion-button{
     font-size: 20px !important;
     font-weight: bold !important;
@@ -183,7 +171,7 @@ A:hover{
 #contact a{
     color: #336699;
 }
-#contact h2 {
+#contact h3 {
     color: white;
 }
 
