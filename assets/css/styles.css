@@ -135,6 +135,7 @@ main{
 .card{
     margin: 25px 15px;
     border-radius: 0;
+    height: 90%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 .card img{
@@ -170,11 +171,9 @@ main{
     line-height:27px;
     text-align: justify;
 }
-
 /* End of Main area */
 
 /* Footer with contact info */
-
 #contact {
     background-color: var(--primary-color) !important; 
     color: white;
