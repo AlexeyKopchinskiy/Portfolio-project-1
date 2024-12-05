@@ -15,9 +15,7 @@
     --link-color:#336699;
     box-sizing: border-box;
 }
-
 /* Global styles */
-
 body {
     font-family: var(--primary-font);
     padding-top: 57.15px; /*pushes the top of the header down under fixed navbar*/
@@ -63,45 +61,39 @@ A:hover{
 .sub-heading-color {
     color: var(--highlight-color);
 }
-
 .section {
     padding-top: 2.5rem; /* prevent navbar overlap */
 }
-
-
 /* Buttons */
 .custom-button-filled {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
     color: white;
 }
-
 .custom-button-filled:hover {
     border: 2px solid var(--secondary-color);
     background-color: var(--secondary-color);
     color: white;
 }
-
 .custom-button-outline {
     border: 3px solid var(--highlight-color);
     padding: 7px 25px;
     color: var(--highlight-color)
 }
-
 .custom-button-outline:hover {
     background-color: var(--highlight-color);
     color: white
 }
-
 /* Navbar */
 #navbar{
     border-bottom: 3px var(--secondary-color) solid;
 }
-
+#navbar .btn{
+    border: 1px var(--secondary-color) solid;
+}
 #navbar .logo {
     width: 30px;
 }
-
 /* Header */
 #hero{
     margin-top: 20px;
@@ -122,14 +114,11 @@ A:hover{
 #header .lead {
     font-family: var(--secondary-font);
 }
-
 /* Main area */
-
 main{
     /* Make the main takeup all available space, pushing footer down */
     flex: 1 0 auto;
 }
-
 /* Services */
 /* Gallery stales */
 .card{
@@ -173,7 +162,6 @@ main{
     padding: 10px 15px;
 }
 /* End of Booking srction */
-
 /* About us styles */
 #aboutUs{
     margin: 55px 0 60px 0;
@@ -199,17 +187,14 @@ main{
 #contact h3 {
     color: white;
 }
-
 #contact .sub-heading-color {
     color: var(--highlight-color-light);
 }
-
 #contact i {
     color: var(--secondary-color);
     font-size: 1.2rem;
     margin-right: 15px;
 }
-
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
@@ -219,7 +204,6 @@ main{
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
-
 #contact .table-dark * {
     background-color: transparent;
 }
