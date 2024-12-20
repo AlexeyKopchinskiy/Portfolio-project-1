@@ -79,9 +79,11 @@ Contact US section has Contact Info with the address of the company headquarters
 o
 ![Lighthouse score](assets/images/readme-images/Lighthouse-score.jpg)
 
-*Fixed bugs*
+**Fixed bugs**
+
 - there was unclosed div tag in the Accordion section - fixed
 - there was big in the form field: the field attribute was wrong - fixed
+
 **Deployment**
 
 The website was deployed on GitHub. 
@@ -89,4 +91,11 @@ The website was deployed on GitHub.
 - Go to the Code and automation/Pages section in the left menu
 - In the Build and deployment select select main/root branch and save
 
-The live link to the website is ![Portfolio-project-1](/index.html)
+The live link to the website is https://alexeykopchinskiy.github.io/Portfolio-project-1/index.html
+
+**Credits**
+
+- The icons for the website were taken from https://fontawesome.com/
+- Hero image as well as images for "Carriage ride" and The Maze" were generated using DreamStudio of Stabillity.ai (https://beta.dreamstudio.ai/)
+- Several code ideas ike collapsible region in "Our services" were taken from https://getbootstrap.com/
+- All other photos were taken by the autor in the Vienna Schonbrunn Park.
