@@ -82,3 +82,11 @@ o
 *Fixed bugs*
 - there was unclosed div tag in the Accordion section - fixed
 - there was big in the form field: the field attribute was wrong - fixed
+**Deployment**
+
+The website was deployed on GitHub. 
+- From the GitHub repository AlexeyKopchinskiy/Portfolio-project-1/ navigate to the setings tab
+- Go to the Code and automation/Pages section in the left menu
+- In the Build and deployment select select main/root branch and save
+
+The live link to the website is ![Portfolio-project-1](/index.html)
