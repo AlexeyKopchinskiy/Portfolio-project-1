@@ -95,6 +95,7 @@ The live link to the website is https://alexeykopchinskiy.github.io/Portfolio-pr
 
 **Credits**
 
+- The text for the website was created by website aouthor
 - The icons for the website were taken from https://fontawesome.com/
 - Hero image as well as images for "Carriage ride" and The Maze" were generated using DreamStudio of Stabillity.ai (https://beta.dreamstudio.ai/)
 - Several code ideas ike collapsible region in "Our services" were taken from https://getbootstrap.com/
