@@ -76,7 +76,7 @@ Contact US section has Contact Info with the address of the company headquarters
 ![W3org HTML validation](assets/images/readme-images/css-velidation-success.png)
 
 -	Accessibility with lighthouse: passed
-o
+
 ![Lighthouse score](assets/images/readme-images/Lighthouse-score.jpg)
 
 **Fixed bugs**
